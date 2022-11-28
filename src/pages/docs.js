@@ -8,14 +8,14 @@ const Docs = () => {
         <>
         
         <Sidebar/>
+
+        <div className="Body1">
+
+        <h1><br/>Docs</h1>
         <motion.div 
             initial={{opacity: 0}} 
             animate={{opacity: 1}}
             transition={{delay: 0.25, duration: 1.0}}>
-        <div className="Body1">
-
-        <h1><br/>Docs</h1>
-
         <div class="container my-4" >
             <p>I know some of you know how <code className="code">SOAP / DOS</code> requests work. </p>
             <br/>
@@ -23,6 +23,7 @@ const Docs = () => {
             <p>- You will need <code className="code">Requests</code> module to make this python script work.</p>
             <p>- Press <code className="code">Windows key+ R</code> → Type <code className="code">cmd</code> → Type "pip install requests". You should be good to go now.</p>
             <h2>Put your questions in the question list and initiate requests.</h2>
+            
     <div class="codeStruct">
 
         <code className="code">import requests,time;</code><br/><br/>
@@ -72,9 +73,9 @@ const Docs = () => {
 
         <code className="code">requester(questionList)</code>
     </div>
-</div>
         </div>
         </motion.div>
+        </div>
         </>
     );
     }

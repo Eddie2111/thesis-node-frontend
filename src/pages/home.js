@@ -7,7 +7,7 @@ import {motion} from "framer-motion";
 
 const Home = () => {
     const [message, setMessage] = useState("");
-    const clearMsg = setTimeout(() => { setMessage(""); }, 3000);
+    
     const formHandle = async (e) => {
         e.preventDefault();
         if(e.target.sentence.value !== ""){
@@ -15,21 +15,22 @@ const Home = () => {
             { sentence:e.target.sentence.value },
             )
             .then((res) => {
-                console.log(res.data.data);
+                //console.log(res.data.data);
                 setMessage(res.data.data);
-                clearMsg();
+                setTimeout(() => { setMessage(""); }, 3000)
+                
             }
             )
             .catch((err) => {
-                console.log(err);
-                setMessage("failed to connect to server");
-                clearMsg();
+                //console.log(err);
+                
+                setTimeout(() => { setMessage(""); }, 3000)
             }
             );
         }
         else{
             setMessage("Please enter a sentence");
-            clearMsg();
+            setTimeout(() => { setMessage(""); }, 3000)
         }
         e.target.reset();
 
@@ -46,7 +47,7 @@ const Home = () => {
         <br/><br/>
         <div className="card">
             <form onSubmit={formHandle}>
-                <label>Type any sentence</label>
+                <label className="label">Type any sentence</label>
                 <input className="inputbox" name="sentence" type="text" placeholder="যে কোন বাংলা বাক্য" />
                 <button className="button" type="submit">Submit</button>
             </form>

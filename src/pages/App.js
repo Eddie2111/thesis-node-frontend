@@ -27,13 +27,13 @@ function App() {
                 <img src={logo} className="App-logo1" alt="logo" />
             </div>
         </motion.div>
-            <div className="box1">
+            <div className="box2">
             <motion.div 
                 initial={{opacity: 0, x: 200}} 
                 animate={{opacity: 1, x: 0}}
                 transition={{delay: 0.5, duration: 1.5}}>
             <div>
-                    <p>
+                    <p className="headLine">
                         Bangla Sign Language Development Project 
                     </p>
                     <p style={subtitle}> Help us develop Bengali sign language transformation and help the journey of millions overcoming their language barrier</p>
