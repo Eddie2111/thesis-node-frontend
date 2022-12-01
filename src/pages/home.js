@@ -47,7 +47,7 @@ const Home = () => {
         <br/><br/>
         <div className="card1">
             <form onSubmit={formHandle}>
-                <label className="label">Type any sentence</label>
+                <label className="label">Type any bengali sentence</label>
                 <textarea name="sentence" className="inputbox" rows={5} ></textarea>
                 <button className="button" type="submit">Submit</button>
             </form>
