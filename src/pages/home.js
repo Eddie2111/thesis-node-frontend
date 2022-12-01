@@ -45,10 +45,10 @@ const Home = () => {
             animate={{opacity: 1}}
             transition={{delay: 0.25, duration: 1.0}}>
         <br/><br/>
-        <div className="card">
+        <div className="card1">
             <form onSubmit={formHandle}>
                 <label className="label">Type any sentence</label>
-                <input className="inputbox" name="sentence" type="text" placeholder="যে কোন বাংলা বাক্য" />
+                <textarea name="sentence" className="inputbox" rows={5} ></textarea>
                 <button className="button" type="submit">Submit</button>
             </form>
             </div>

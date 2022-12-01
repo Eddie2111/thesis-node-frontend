@@ -15,6 +15,7 @@ import NotFound     from "./pages/notFound";
 import Docs         from "./pages/docs";
 import Test         from './pages/Test';
 import SEO from './pages/components/SEO';
+import 'bootstrap/dist/css/bootstrap.min.css';
 // routes and pages
 
 //import localStorage from "localstorage";

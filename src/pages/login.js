@@ -47,7 +47,7 @@ const Login = () => {
         <Sidebar/>
         <div className="Body">
             <br/><br/>
-        <div className="card">
+        <div className="card1">
             <form onSubmit={formHandle}>
                 <label className="label">Type email</label>
                 <input className="inputbox" name="email" type="text" placeholder="admin@test.com" />

@@ -74,7 +74,7 @@
   .codeStruct{
     margin:auto;
     padding:auto;
-    height:270px;
+    margin-left: 12%;
     width:750px;
     font-size: 13px;
     margin-right:250px;
@@ -92,8 +92,8 @@
 .codeStruct1{
     margin:auto;
     padding:auto;
-    height:390px;
     width:750px;
+    margin-left: 12%;
     margin-right:250px;
     font-size: 13px;
     color:#ffffffe0;
@@ -102,9 +102,9 @@
     
 }
 .inputbox{
-    height:40px;
+    height:80px;
     margin-top:20px;
-    width:290px;
+    width:420px;
     background-color: transparent;
     border: none;
     outline: none;
@@ -113,8 +113,8 @@
     transition: 0.3s ease-in-out;
 }
 .inputbox:focus{
-    height:40px;
-    width:290px;
+    height:80px;
+    width:420px;
     background-color: transparent;
     border: none;
     outline: none;
@@ -123,8 +123,8 @@
     transition: 0.3s ease-in-out;
 }
 .inputbox:hover{
-    height:40px;
-    width:290px;
+    height:80px;
+    width:420px;
     background-color: transparent;
     border: none;
     font-size: 18px;
@@ -134,9 +134,9 @@
 }
 
 
-.card{
+.card1{
     height:400px;
-    width:300px;
+    width:450px;
     padding:10px;
     display:flex;
     margin-left:0px;
@@ -150,9 +150,9 @@
     transition: 0.3s ease-in-out;
 }
 
-.card:hover{
+.card1:hover{
     height:400px;
-    width:300px;
+    width:450px;
     padding:10px;
     display:flex;
     flex-direction: column;
@@ -169,7 +169,7 @@
     width:160px;
     height:50px;
     margin-top: 15px;
-    margin-left: 24%;
+    margin-left: 32%;
     font-size:15px;
     background-color: #61aefb;
     border-radius: 10px;
@@ -183,7 +183,7 @@
     width:160px;
     height:50px;
     margin-top: 15px;
-    margin-left: 24%;
+    margin-left: 32%;
     font-size:15px;
     background-color: #61fbca;
     border-radius: 10px;
@@ -191,10 +191,30 @@
     transition: 0.3s ease-in-out;
     outline:none;
 }
+.button:after {
+    content: "";
+    background-color: #ffffff;
+    display: block;
+    position: absolute;
+    border-radius: 10px;
+    padding-top: 10%;
+    padding-left: 35%;
+    margin-left: -1%;
+    margin-top: -7%;
+    opacity: 0;
+    transition: all .5s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+  }
 
 .sidebar{
     height:100vh;
-    width:15vw;
+    width:11vw;
     float:left;
     margin-top:4%;
     margin-left:-60px;
