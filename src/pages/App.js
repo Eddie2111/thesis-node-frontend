@@ -14,7 +14,7 @@ function App() {
     <>
     <SEO title="home" value={1}/>
     <Sidebar/>
-    
+    <div className="container">
       <Body>
         <Test>
         <motion.div 
@@ -50,7 +50,7 @@ function App() {
         
         </Test>
       </Body>
-    
+    </div>
     </>
   );
 }

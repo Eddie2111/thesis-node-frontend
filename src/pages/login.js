@@ -5,6 +5,7 @@ import backend from "./api/backend";
 import Sidebar from "./components/sidebar";
 import SEO from "./components/SEO";
 import { useNavigate } from 'react-router-dom';
+import { Body, LoginS } from "./components/styledComponents";
 
 
 const Login = () => {
@@ -45,9 +46,9 @@ const Login = () => {
         <>
         <SEO/>
         <Sidebar/>
-        <div className="Body">
+        <Body>
             
-        <div className="card1 login">
+        <LoginS className="card1">
             
             <form onSubmit={formHandle} className="formik">
                 <label className="label">Type email</label>
@@ -58,9 +59,9 @@ const Login = () => {
                 <br/>
                 <button className="button" type="submit">Login</button>
             </form>
-            </div>
+            </LoginS>
             <p>&nbsp;{message}&nbsp;</p>
-        </div>
+        </Body>
         </>
     );
     }

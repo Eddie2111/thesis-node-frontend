@@ -36,6 +36,23 @@ export const ButtonStarted = styled.button`
             width: 15vw;
             background-color: #61dafb;
             transition: 0.3s ease-in-out;
+        }
+        @media (max-width: 787px) {
+            height: 80px;
+            width: 40vw;
+            font-size: 1.5rem;
+            border-radius: 30px;
+            border: none;
+            margin:auto;
+            background-color: #ffffff;
+            transition: 0.3s ease-in-out;
+            &:hover{
+                background-color: #61dafb;
+                color:black;
+                width: 40vw;
+                transition: 0.3s ease-in-out;
+            }
+        }
         `;
 export const Box11 = styled.div`
         width:40vw;
@@ -83,6 +100,6 @@ export const MessageIO = styled.div`
         margin-top:16vh;
         background: transparent;
         `;
-export const login = styled.div`
+export const LoginS = styled.div`
         margin-top: 15vh;
         `;

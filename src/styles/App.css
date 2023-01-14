@@ -8,11 +8,7 @@ p{
 .App {
   text-align: center;
 }
-/* done */
-.docs{
-    background-color: transparent;
-    padding-left:-12px;
-}
+
 /* done */
 .Body {
     display: flex;
@@ -32,89 +28,16 @@ p{
     height: 50vmin;
     pointer-events: none;
   }
-/* done */
-.buttonStarted{
-    height: 80px;
-    width: 14vw;
-    font-size: 1.5rem;
-    border-radius: 30px;
-    border: none;
-    margin:auto;
-    background-color: #ffffff;
-    transition: 0.3s ease-in-out;
-}
-/* done */
-.login{
-    margin-top: 15vh;
-}
-/* done */
-.messageIO{
-    transition: 0.3s ease-in-out;
-    margin-top:16vh;
-    background: transparent;
-}
-/* done */
-.buttonStarted:hover{
-    width: 15vw;
-    background-color: #61dafb;
-    transition: 0.3s ease-in-out;
-}
-/* done */
-.test{
-    margin:2vw;
-    margin-top:18vh;
-}
-/* done */
-.box11{
-    width:40vw;
-}
+
 
 .headLine{
     font-size:25px;
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-/* done */
-.Body1 {
-    background-color: #282c34;
-    padding-left:180px;
-    color: white;
-    margin-top:-22px;
-    height:230vh;
-  }
-  /* done */
-  .codeStruct{
-    margin:auto;
-    padding:auto;
-    margin-left: 10%;
-    width:37vw;
-    font-size: 13px;
-    margin-right:250px;
-    font-style: bold;
-    color:#ffffffe0;
-    background-color: #454545;
-    border:2px solid rgb(253, 134, 118);
-}
-.code{
-    color:rgb(244, 93, 93);
-    background-color: transparent;
-}
 .label{
     background:transparent;
     font-size:20px;
-}
-/* done */
-.codeStruct1{
-    margin:auto;
-    padding:auto;
-    width:37vw;
-    margin-left: 10%;
-    margin-right:250px;
-    font-size: 13px;
-    color:#ffffffe0;
-    background-color: #454545;
-    border:2px solid rgb(253, 134, 118);
-    
 }
 .inputbox{
     height:80px;
@@ -274,35 +197,11 @@ p{
         display:flex;
         flex-direction: column-reverse;
     }
-    /*done*/
-    .Body{
-        margin-top:15vh;
-        flex-direction: column;
-    }
+
     .test{
         margin-top:0vh;
     }
-    /*done*/
-    .buttonStarted{
-        height: 80px;
-        width: 34vw;
-        font-size: 1.5rem;
-        border-radius: 30px;
-        border: none;
-        margin:auto;
-        background-color: #ffffff;
-        transition: 0.3s ease-in-out;
-    }
-    .buttonStarted:hover{
-        height: 80px;
-        width: 34vw;
-        font-size: 1.5rem;
-        border-radius: 30px;
-        border: none;
-        background-color: #61dafb;
-        color:black;
-        transition: 0.3s ease-in-out;
-    }
+
     .button{
         margin-left:20vw;
     }
@@ -319,6 +218,5 @@ p{
     }
     .inputbox:hover{
         width: 70vw;
-     
     }
   }
