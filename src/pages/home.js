@@ -5,6 +5,7 @@ import backend from "./api/backend";
 import Sidebar from "./components/sidebar";
 import {motion} from "framer-motion";
 
+import { Body } from "./components/styledComponents";
 const Home = () => {
     const [message, setMessage] = useState("");
     
@@ -39,7 +40,7 @@ const Home = () => {
         <>
         
         <Sidebar/>
-        <div className="Body">
+        <Body>
         <motion.div 
             initial={{opacity: 0}} 
             animate={{opacity: 1}}
@@ -54,7 +55,7 @@ const Home = () => {
             <p className="messageIO">&nbsp;{message}&nbsp;</p>
             </div>
             </motion.div>
-        </div>
+        </Body>
         </>
     );
     }

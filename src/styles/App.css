@@ -4,13 +4,16 @@
 p{
     background-color: transparent;
 }
+/* done */
 .App {
   text-align: center;
 }
+/* done */
 .docs{
     background-color: transparent;
     padding-left:-12px;
 }
+/* done */
 .Body {
     display: flex;
     background-color: #282c34;
@@ -29,7 +32,7 @@ p{
     height: 50vmin;
     pointer-events: none;
   }
-
+/* done */
 .buttonStarted{
     height: 80px;
     width: 14vw;
@@ -40,29 +43,28 @@ p{
     background-color: #ffffff;
     transition: 0.3s ease-in-out;
 }
+/* done */
 .login{
     margin-top: 15vh;
 }
+/* done */
 .messageIO{
     transition: 0.3s ease-in-out;
     margin-top:16vh;
     background: transparent;
 }
+/* done */
 .buttonStarted:hover{
-    height: 80px;
     width: 15vw;
-    
-    font-size: 1.5rem;
-    border-radius: 30px;
-    border: none;
     background-color: #61dafb;
-    color:black;
     transition: 0.3s ease-in-out;
 }
+/* done */
 .test{
     margin:2vw;
     margin-top:18vh;
 }
+/* done */
 .box11{
     width:40vw;
 }
@@ -72,6 +74,7 @@ p{
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+/* done */
 .Body1 {
     background-color: #282c34;
     padding-left:180px;
@@ -79,6 +82,7 @@ p{
     margin-top:-22px;
     height:230vh;
   }
+  /* done */
   .codeStruct{
     margin:auto;
     padding:auto;
@@ -92,15 +96,14 @@ p{
     border:2px solid rgb(253, 134, 118);
 }
 .code{
+    color:rgb(244, 93, 93);
     background-color: transparent;
 }
 .label{
     background:transparent;
     font-size:20px;
 }
-.code{
-    color:rgb(244, 93, 93);
-}
+/* done */
 .codeStruct1{
     margin:auto;
     padding:auto;
@@ -116,7 +119,7 @@ p{
 .inputbox{
     height:80px;
     margin-top:20px;
-    width:20.5vw;
+    width:30vw;
     background-color: transparent;
     border: none;
     outline: none;
@@ -125,30 +128,20 @@ p{
     transition: 0.3s ease-in-out;
 }
 .inputbox:focus{
-    height:80px;
-    width:420px;
-    background-color: transparent;
     border: none;
     outline: none;
-    font-size: 18px;
     border-bottom: 2px solid #64d87d;
     transition: 0.3s ease-in-out;
 }
 .inputbox:hover{
-    height:80px;
-    width:420px;
-    background-color: transparent;
     border: none;
-    font-size: 18px;
     border-bottom: 2px solid #61aefb;
     outline: none;
     transition: 0.3s ease-in-out;
 }
-
-
 .card1{
     height:400px;
-    width:22vw;
+    width:32vw;
     padding:10px;
     display:flex;
     margin-left:0px;
@@ -161,16 +154,7 @@ p{
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     transition: 0.3s ease-in-out;
 }
-.formik{
-    background: transparent;
-}
-
 .card1:hover{
-    height:400px;
-    width:22vw;
-    padding:10px;
-    display:flex;
-    flex-direction: column;
     background: rgba( 255, 255, 255, 0.25 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 4px );
@@ -179,13 +163,16 @@ p{
     border: 1px solid rgba(16, 241, 226, 0.567);
     transition: 0.3s ease-in-out;
 }
+.formik{
+    background: transparent;
+}
 
 .button{
     width:160px;
     height:50px;
     margin-top: 15px;
-    margin-left: 32%;
     font-size:15px;
+    margin-left:9vw;
     background-color: #61aefb;
     border-radius: 10px;
     color:white;
@@ -195,11 +182,6 @@ p{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .button:hover{
-    width:160px;
-    height:50px;
-    margin-top: 15px;
-    margin-left: 32%;
-    font-size:15px;
     background-color: #61fbca;
     border-radius: 10px;
     color:black;
@@ -249,25 +231,14 @@ p{
     text-decoration: none;
     color:white;
     margin:30px;
-
     transition: 0.3s ease-in-out;
 }
 .sidebarIcons:hover{
-    list-style: none;
-    height:20px;
-    width:20px;
     border-radius: 5px;
     border:5px solid rgb(245, 245, 245);
-    padding:20px;
-    justify-content: center;
-    text-align: center;
-    text-decoration: none;
     color:rgb(7, 191, 247);
-    
-    margin-top:30px;
     transition: 0.3s ease-in-out;
 }
-
 .container1{
     margin-left:30px;
     width:80vw;
@@ -303,6 +274,7 @@ p{
         display:flex;
         flex-direction: column-reverse;
     }
+    /*done*/
     .Body{
         margin-top:15vh;
         flex-direction: column;
@@ -310,6 +282,7 @@ p{
     .test{
         margin-top:0vh;
     }
+    /*done*/
     .buttonStarted{
         height: 80px;
         width: 34vw;
@@ -330,17 +303,19 @@ p{
         color:black;
         transition: 0.3s ease-in-out;
     }
+    .button{
+        margin-left:20vw;
+    }
     .card1{
+        width:75vw;
+        margin-left:8%;
+    }
+    .card1:hover{
         width:75vw;
         margin-left:8%;
     }
     .inputbox{
         width: 70vw;
-     
-    }
-    .card1:hover{
-        width:75vw;
-        margin-left:8%;
     }
     .inputbox:hover{
         width: 70vw;

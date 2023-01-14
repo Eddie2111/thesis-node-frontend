@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import axios from "axios";
-import './index.css';
-import App from './pages/App';
+import { Run } from './pages/api/backend';
 import { BrowserRouter,Route,Routes } from "react-router-dom";
 
 
 // routes and pages
+import App          from './pages/App';
 import Signup       from "./pages/signup";
 import Login        from "./pages/login";
 import Success      from "./pages/success";
@@ -16,12 +16,18 @@ import About        from "./pages/about";
 import NotFound     from "./pages/notFound";
 import Docs         from "./pages/docs";
 import Test         from './pages/Test';
+// routes and pages
+
+// styles and components
+import './index.css';
+import './styles/App.css';
 import SEO from './pages/components/SEO';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// routes and pages
+// styles and components
 
 //import localStorage from "localstorage";
 axios.defaults.withCredentials = true;
+Run();
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     

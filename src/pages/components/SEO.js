@@ -1,10 +1,11 @@
 import {Helmet} from "react-helmet";
 
-const SEO = ({title, description, image, article}) => {
+export default function SEO({ title, value }) {
+    const title1 = title;
 return (
     <Helmet>
     <meta charSet="utf-8" />
-    <title>BDSLP || </title>
+    <title>BDSLP</title>
     <link rel="canonical" href="https://www.BDSLP.vercel.app" />
     <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -29,5 +30,3 @@ return (
 </Helmet>
 )
 }
-
-export default SEO;

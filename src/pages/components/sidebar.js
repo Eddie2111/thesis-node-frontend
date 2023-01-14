@@ -1,5 +1,5 @@
 import React from "react";
-
+import { motion } from "framer-motion";
 // Icons
     import PersonIcon from '@mui/icons-material/Person';
     import HomeIcon from '@mui/icons-material/Home';
@@ -15,7 +15,6 @@ const Sidebar = ()=>{
             <li>&nbsp;</li>
             <li>&nbsp;</li>
             <li>&nbsp;</li>
-            
                 <a className="sidebarIcons links" href="/"><HomeIcon/></a>
                 <li></li>
                 <li></li>
