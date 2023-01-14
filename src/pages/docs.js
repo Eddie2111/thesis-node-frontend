@@ -16,7 +16,7 @@ const Docs = () => {
             initial={{opacity: 0}} 
             animate={{opacity: 1}}
             transition={{delay: 0.25, duration: 1.0}}>
-        <div class="container my-4" >
+        <div class="container my-4 docs" >
             <p>I know some of you know how <code className="code">SOAP / DOS</code> requests work. </p>
             <br/>
             <p>So I have prepared a script of python to automate your queries. [Do not modify timer and method or else your request might identify as a DDOS request and your IP will be banned.]</p>

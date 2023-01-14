@@ -46,14 +46,14 @@ const Home = () => {
             transition={{delay: 0.25, duration: 1.0}}>
         <br/><br/>
         <div className="card1">
-            <form onSubmit={formHandle}>
-                <label className="label">Type any bengali sentence</label>
+            <form onSubmit={formHandle} className="formik">
+                <label className="label">Type any sentence</label>
                 <textarea name="sentence" className="inputbox" rows={5} ></textarea>
                 <button className="button" type="submit">Submit</button>
             </form>
+            <p className="messageIO">&nbsp;{message}&nbsp;</p>
             </div>
             </motion.div>
-            <p className="messageIO">&nbsp;{message}&nbsp;</p>
         </div>
         </>
     );

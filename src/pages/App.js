@@ -2,7 +2,7 @@ import logo from '../assets/TwoPersonButton.svg';
 import '../styles/App.css';
 import Sidebar from "./components/sidebar";
 import {motion} from "framer-motion";
-
+import SEO from './components/SEO';
 
 function App() {
     const subtitle = {
@@ -13,21 +13,22 @@ function App() {
 
   return (
     <>
-
+    <SEO />
     <Sidebar/>
     
-    
-      <header className="Body">
-      <div className="container1">
+      <div className="Body">
+        <div className="test">
         <motion.div 
             initial={{opacity: 0}} 
             animate={{opacity: 1}}
             transition={{delay: 0.5, duration: 1.5}}>
-            <div className="box1">
                 <img src={logo} className="App-logo1" alt="logo" />
-            </div>
+            
         </motion.div>
-            <div className="box2">
+
+        </div>
+        <div className="test box11">
+        
             <motion.div 
                 initial={{opacity: 0, x: 200}} 
                 animate={{opacity: 1, x: 0}}
@@ -47,9 +48,9 @@ function App() {
                     <button className="buttonStarted">Get Started</button>
                 </a>
             </motion.div>
-            </div>
+        
         </div>
-      </header>
+      </div>
     
     </>
   );

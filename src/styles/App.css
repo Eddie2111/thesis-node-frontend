@@ -1,6 +1,25 @@
+*{
+    background-color: #282c34;
+}
+p{
+    background-color: transparent;
+}
 .App {
   text-align: center;
 }
+.docs{
+    background-color: transparent;
+    padding-left:-12px;
+}
+.Body {
+    display: flex;
+    background-color: #282c34;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+  }
 
 .App-logo {
   height: 40vmin;
@@ -13,19 +32,25 @@
 
 .buttonStarted{
     height: 80px;
-    width: 300px;
+    width: 14vw;
     font-size: 1.5rem;
     border-radius: 30px;
     border: none;
+    margin:auto;
     background-color: #ffffff;
     transition: 0.3s ease-in-out;
 }
+.login{
+    margin-top: 15vh;
+}
 .messageIO{
     transition: 0.3s ease-in-out;
+    margin-top:16vh;
+    background: transparent;
 }
 .buttonStarted:hover{
     height: 80px;
-    width: 300px;
+    width: 15vw;
     
     font-size: 1.5rem;
     border-radius: 30px;
@@ -34,31 +59,14 @@
     color:black;
     transition: 0.3s ease-in-out;
 }
-
-@media (max-width: 767px) {
-    .container1{
-        display:flex;
-        flex-direction: column-reverse;
-    }
-  }
-
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.test{
+    margin:2vw;
+    margin-top:18vh;
+}
+.box11{
+    width:40vw;
 }
 
-.Body {
-  height: 100vh;
-  display: flex;
-  background-color: #282c34;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 15px;
-  color: white;
-}
 .headLine{
     font-size:25px;
     font-weight: 400;
@@ -74,8 +82,8 @@
   .codeStruct{
     margin:auto;
     padding:auto;
-    margin-left: 12%;
-    width:750px;
+    margin-left: 10%;
+    width:37vw;
     font-size: 13px;
     margin-right:250px;
     font-style: bold;
@@ -83,7 +91,11 @@
     background-color: #454545;
     border:2px solid rgb(253, 134, 118);
 }
+.code{
+    background-color: transparent;
+}
 .label{
+    background:transparent;
     font-size:20px;
 }
 .code{
@@ -92,8 +104,8 @@
 .codeStruct1{
     margin:auto;
     padding:auto;
-    width:750px;
-    margin-left: 12%;
+    width:37vw;
+    margin-left: 10%;
     margin-right:250px;
     font-size: 13px;
     color:#ffffffe0;
@@ -104,7 +116,7 @@
 .inputbox{
     height:80px;
     margin-top:20px;
-    width:420px;
+    width:20.5vw;
     background-color: transparent;
     border: none;
     outline: none;
@@ -136,12 +148,12 @@
 
 .card1{
     height:400px;
-    width:450px;
+    width:22vw;
     padding:10px;
     display:flex;
     margin-left:0px;
     flex-direction: column;
-    background: rgba( 255, 255, 255, 0.25 );
+    background-color: rgba( 255, 255, 255, 0.25 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
@@ -149,10 +161,13 @@
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     transition: 0.3s ease-in-out;
 }
+.formik{
+    background: transparent;
+}
 
 .card1:hover{
     height:400px;
-    width:450px;
+    width:22vw;
     padding:10px;
     display:flex;
     flex-direction: column;
@@ -283,3 +298,52 @@
     transform: rotate(360deg);
   }
 }
+@media (max-width: 787px) {
+    .container1{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .Body{
+        margin-top:15vh;
+        flex-direction: column;
+    }
+    .test{
+        margin-top:0vh;
+    }
+    .buttonStarted{
+        height: 80px;
+        width: 34vw;
+        font-size: 1.5rem;
+        border-radius: 30px;
+        border: none;
+        margin:auto;
+        background-color: #ffffff;
+        transition: 0.3s ease-in-out;
+    }
+    .buttonStarted:hover{
+        height: 80px;
+        width: 34vw;
+        font-size: 1.5rem;
+        border-radius: 30px;
+        border: none;
+        background-color: #61dafb;
+        color:black;
+        transition: 0.3s ease-in-out;
+    }
+    .card1{
+        width:75vw;
+        margin-left:8%;
+    }
+    .inputbox{
+        width: 70vw;
+     
+    }
+    .card1:hover{
+        width:75vw;
+        margin-left:8%;
+    }
+    .inputbox:hover{
+        width: 70vw;
+     
+    }
+  }

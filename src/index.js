@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import axios from "axios";
 import './index.css';
 import App from './pages/App';
 import { BrowserRouter,Route,Routes } from "react-router-dom";
+
 
 // routes and pages
 import Signup       from "./pages/signup";
@@ -19,7 +21,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // routes and pages
 
 //import localStorage from "localstorage";
-
+axios.defaults.withCredentials = true;
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     

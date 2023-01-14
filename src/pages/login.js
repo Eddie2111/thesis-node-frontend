@@ -5,7 +5,7 @@ import backend from "./api/backend";
 import Sidebar from "./components/sidebar";
 import SEO from "./components/SEO";
 import { useNavigate } from 'react-router-dom';
-axios.defaults.withCredentials = true;
+
 
 const Login = () => {
     const [message, setMessage] = useState("");
@@ -46,9 +46,10 @@ const Login = () => {
         <SEO/>
         <Sidebar/>
         <div className="Body">
-            <br/><br/>
-        <div className="card1">
-            <form onSubmit={formHandle}>
+            
+        <div className="card1 login">
+            
+            <form onSubmit={formHandle} className="formik">
                 <label className="label">Type email</label>
                 <input className="inputbox" name="email" type="text" placeholder="admin@test.com" />
                 <br/>
