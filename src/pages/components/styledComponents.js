@@ -12,8 +12,9 @@ export const Body = styled.div`
         font-size: 15px;
         color: white;
         @media (max-width: 787px) {
-            margin-top:15vh;
+            margin-top:5vh;
             flex-direction: column;
+            margin-left:7vh;
         }
         `;
 export const Body1 = styled.div`
@@ -24,7 +25,7 @@ export const Body1 = styled.div`
         height:230vh;
         @media (max-width: 787px){
         
-        margin-left: -7vh;
+        margin-left: -6vh;
         
         }
         `;
@@ -117,7 +118,8 @@ export const Test= styled.div`
         margin-top:18vh;
         @media (max-width: 787px) {
             margin-top:0vh;
-            margin-left:10vh
+            margin-left:10vh;
+            margin-right:1vh
         }
         `;
 export const MessageIO = styled.div`
