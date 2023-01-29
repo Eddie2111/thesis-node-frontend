@@ -97,6 +97,13 @@ export const CodeStruct1 = styled.div`
         color:#ffffffe0;
         background-color: #454545;
         border:2px solid rgb(253, 134, 118);
+        @media (max-width: 787px){
+                margin:auto;
+                padding:auto;
+                margin-left: 1vh;
+                width:60vw;
+                
+                }
         `;
 export const Docs = styled.div`
         background-color: transparent;
