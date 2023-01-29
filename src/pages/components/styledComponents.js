@@ -39,8 +39,8 @@ export const ButtonStarted = styled.button`
         }
         @media (max-width: 787px) {
             height: 80px;
-            width: 40vw;
-            font-size: 1.5rem;
+            width: 20vw;
+            font-size: 1rem;
             border-radius: 30px;
             border: none;
             margin:auto;
@@ -56,6 +56,7 @@ export const ButtonStarted = styled.button`
         `;
 export const Box11 = styled.div`
         width:40vw;
+        
         `;        
 export const Code = styled.code`
         color:rgb(244, 93, 93);
@@ -93,6 +94,7 @@ export const Test= styled.div`
         margin-top:18vh;
         @media (max-width: 787px) {
             margin-top:0vh;
+            margin-left:10vh
         }
         `;
 export const MessageIO = styled.div`
