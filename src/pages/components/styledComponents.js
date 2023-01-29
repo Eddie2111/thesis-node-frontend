@@ -22,6 +22,11 @@ export const Body1 = styled.div`
         color: white;
         margin-top:-22px;
         height:230vh;
+        @media (max-width: 787px){
+        
+        margin-left: -7vh;
+        
+        }
         `;
 export const ButtonStarted = styled.button`
         height: 80px;
@@ -65,7 +70,7 @@ export const Code = styled.code`
 export const CodeStruct = styled.div`       
         margin:auto;
         padding:auto;
-        margin-left: 10%;
+        margin-left: 10px;
         width:37vw;
         font-size: 13px;
         margin-right:250px;
@@ -73,6 +78,14 @@ export const CodeStruct = styled.div`
         color:#ffffffe0;
         background-color: #454545;
         border:2px solid rgb(253, 134, 118);
+
+        @media (max-width: 787px){
+        margin:auto;
+        padding:auto;
+        margin-left: 1vh;
+        width:60vw;
+        
+        }
         `; 
 export const CodeStruct1 = styled.div`
         margin:auto;
@@ -88,6 +101,9 @@ export const CodeStruct1 = styled.div`
 export const Docs = styled.div`
         background-color: transparent;
         padding-left:-12px;
+        margin-left: 10px;
+        
+        
         `;
 export const Test= styled.div`
         margin:2vw;
