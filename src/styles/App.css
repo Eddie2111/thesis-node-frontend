@@ -76,6 +76,7 @@ p{
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     transition: 0.3s ease-in-out;
+    margin-top: 10vh;
 }
 .card1:hover{
     background: rgba( 255, 255, 255, 0.25 );
@@ -207,7 +208,8 @@ p{
     }
     .card1{
         width:75vw;
-        margin-left:8%;
+        margin-left:9vh;
+
     }
     .card1:hover{
         width:75vw;
