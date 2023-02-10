@@ -30,7 +30,7 @@ const Home = () => {
             );
         }
         else{
-            setMessage("Type any sentence");
+            setMessage("Please enter a sentence");
             setTimeout(() => { setMessage(""); }, 3000)
         }
         e.target.reset();
