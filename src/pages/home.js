@@ -30,7 +30,7 @@ const Home = () => {
             );
         }
         else{
-            setMessage("Please enter a sentence");
+            setMessage("যেকোনো বাক্য লিখুন");
             setTimeout(() => { setMessage(""); }, 3000)
         }
         e.target.reset();
