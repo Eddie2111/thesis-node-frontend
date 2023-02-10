@@ -30,7 +30,7 @@ const Home = () => {
             );
         }
         else{
-            setMessage("যেকোনো বাক্য লিখুন");
+            setMessage("Type any sentence");
             setTimeout(() => { setMessage(""); }, 3000)
         }
         e.target.reset();
@@ -48,7 +48,7 @@ const Home = () => {
         <br/><br/>
         <div className="card1">
             <form onSubmit={formHandle} className="formik">
-                <label className="label">Type any sentence</label>
+                <label className="label">যেকোনো বাক্য লিখুন</label>
                 <textarea name="sentence" className="inputbox" rows={5} ></textarea>
                 <button className="button" type="submit">Submit</button>
             </form>
