@@ -36,7 +36,7 @@ const Docs = () => {
         <Code>for i in questionList:</Code><br/>
         <Code>&nbsp;&nbsp;&nbsp;&nbsp;try:</Code><br/>
         <Code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dictToSend = {sentence1};</Code><br/>
-        <Code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;res = requests.post('https://connecteen-node-002.herokuapp.com/recieve', json=dictToSend);</Code><br/>
+        <Code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;res = requests.post('https://calm-gold-moccasins.cyclic.app//recieve', json=dictToSend);</Code><br/>
         <Code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dictFromServer = res.json();</Code><br/>
         <Code>&nbsp;&nbsp;&nbsp;&nbsp;except:</Code><br/>
         <Code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;time.sleep(1)</Code><br/>
@@ -62,7 +62,7 @@ const Docs = () => {
         <Code>&nbsp;&nbsp;&nbsp;&nbsp;for i in questionList:</Code><br/>
         <Code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;try:</Code><br/>
         <Code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dictToSend = {sentence1};</Code><br/>
-        <Code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;res = requests.post('https://connecteen-node-002.herokuapp.com/recieve', json=dictToSend);</Code><br/>
+        <Code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;res = requests.post('https://calm-gold-moccasins.cyclic.app/recieve', json=dictToSend);</Code><br/>
         <Code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dictFromServer = res.json();</Code><br/>
         <Code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("array number {} sent".format(questionList.index(i)))</Code><br/>
         <Code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;except:</Code><br/>
